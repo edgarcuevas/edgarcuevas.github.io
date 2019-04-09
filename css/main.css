@@ -2088,7 +2088,7 @@ html.no-csstransitions .home-content__main {
 	display: block;
 	font-family: "montserrat-regular", sans-serif;
 	font-size: 1.3rem;
-	color: rgba(95, 95, 95, 0.7);
+	color: white;
 	text-transform: none;
 	letter-spacing: 0;
 }
