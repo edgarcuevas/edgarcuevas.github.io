@@ -16,7 +16,6 @@
 
   <!-- Main CSS -->
   <link rel="stylesheet" href="css/main.css">
-
 </head>
 
 <body>
@@ -29,8 +28,8 @@
       </a>
       <nav>
         <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
           <li><a href="#activities">Activities</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -40,15 +39,16 @@
 
   <!-- Hero Section -->
   <main>
-    <section id="home" class="hero section">
+    <section id="home" class="hero">
       <div class="container hero-content animate-up">
         <h3>Hello There</h3>
         <h1>
           I am Edgar Cuevas.<br>
-          I am a UIUC alum, data scientist, and software engineer.
+          A software engineer,<br>
+          data scientist, &amp; UIUC alum.
         </h1>
         <div class="btn-group">
-          <a href="#activities" class="btn btn-primary">Latest Projects</a>
+          <a href="#experience" class="btn btn-primary">My Experience</a>
           <a href="#about" class="btn btn-outline">More About Me</a>
         </div>
       </div>
@@ -73,8 +73,8 @@
               with non-profits (via volunteering and/or fundraising) to help social issues that are important to me.
               Feel free to reach out if you are interested in discussing programming and/or philosophy.</p>
             <div class="btn-group" style="margin-top: 3rem;">
-              <a href="Resume.pdf" class="btn btn-primary">Download My Resume</a>
-              <a href="https://www.linkedin.com/in/cuevasedgar/" class="btn btn-outline">LinkedIn</a>
+              <a href="Resume.pdf" class="btn btn-primary" target="_blank">Download My Resume</a>
+              <a href="https://www.linkedin.com/in/cuevasedgar/" class="btn btn-outline" target="_blank">LinkedIn</a>
             </div>
           </div>
 
@@ -82,143 +82,132 @@
             <h3 style="color:var(--text-primary)">I've Got Some Skills.</h3>
             <ul class="skills-list">
               <li class="skill-item">
+                <h4 class="skill-name">Databricks</h4>
+              </li>
+              <li class="skill-item">
+                <h4 class="skill-name">Airflow</h4>
+              </li>
+              <li class="skill-item">
                 <h4 class="skill-name">Python</h4>
               </li>
               <li class="skill-item">
-                <h4 class="skill-name">HTML5 / CSS / JS</h4>
-              </li>
-              <li class="skill-item">
-                <h4 class="skill-name">Angular JS</h4>
+                <h4 class="skill-name">C#</h4>
               </li>
               <li class="skill-item">
                 <h4 class="skill-name">Java</h4>
               </li>
               <li class="skill-item">
-                <h4 class="skill-name">C++</h4>
+                <h4 class="skill-name">Git</h4>
               </li>
             </ul>
           </div>
         </div>
+      </div>
+    </section>
 
-        <!-- Timeline Section -->
-        <h3 class="text-center" style="margin-top: 8rem; color:var(--text-secondary)">My Work Experience</h3>
+    <!-- Experience Timeline Section -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h3 class="text-center">Experience</h3>
+        <h2 class="text-center">My Work Experience</h2>
 
         <div class="timeline">
-
           <div class="timeline-item">
-            <div class="timeline-content">
-              <h4 class="timeline-title">Moxe Health <span class="timeline-date"
-                  style="float: right; margin-bottom: 0;">Most Recent</span></h4>
-              <p class="timeline-subtitle">Software Engineer</p>
-              <p class="card-desc">
-                • Built and maintained secure, compliant healthcare IT infrastructure and APIs.<br>
-                • Developed solutions to facilitate clinical data exchange between payers and providers.<br>
-                • Automated testing and deployment pipelines to accelerate delivery.
-              </p>
-            </div>
+            <span class="timeline-date">Most Recent</span>
+            <h4 class="timeline-title">Moxe Health</h4>
+            <p class="timeline-subtitle">Software Engineer</p>
+            <p class="card-desc">
+              • Built and maintained secure, compliant healthcare IT infrastructure and APIs.<br>
+              • Developed solutions to facilitate clinical data exchange between payers and providers.<br>
+              • Automated testing and deployment pipelines to accelerate delivery.
+            </p>
           </div>
 
           <div class="timeline-item">
-            <div class="timeline-content">
-              <h4 class="timeline-title">MapTitan <span class="timeline-date"
-                  style="float: right; margin-bottom: 0;">Summer 2020</span></h4>
-              <p class="timeline-subtitle">Business Development Intern</p>
-              <p class="card-desc">
-                • Worked Directly with CEO to develop an advanced predictive algorithm to match users to the best city
-                meeting their preferences.<br>
-                • Assessed potential business impact of potential features under consideration.
-              </p>
-            </div>
+            <span class="timeline-date">Summer 2020</span>
+            <h4 class="timeline-title">MapTitan</h4>
+            <p class="timeline-subtitle">Business Development Intern</p>
+            <p class="card-desc">
+              • Worked Directly with CEO to develop an advanced predictive algorithm to match users to the best city
+              meeting their preferences.<br>
+              • Assessed potential business impact of potential features under consideration.
+            </p>
           </div>
 
           <div class="timeline-item">
-            <div class="timeline-content">
-              <h4 class="timeline-title">Corteva Agriscience <span class="timeline-date"
-                  style="float: right; margin-bottom: 0;">Spring 2020</span></h4>
-              <p class="timeline-subtitle">Software Engineering Intern</p>
-              <p class="card-desc">
-                • Using Java and MATLAB to be able to create a QSAR model prediction application to evaluate assessment
-                of physicochemical properties, toxicological endpoints, and environmental fate of SMILES structures.
-              </p>
-            </div>
+            <span class="timeline-date">Spring 2020</span>
+            <h4 class="timeline-title">Corteva Agriscience</h4>
+            <p class="timeline-subtitle">Software Engineering Intern</p>
+            <p class="card-desc">
+              • Using Java and MATLAB to be able to create a QSAR model prediction application to evaluate assessment of
+              physicochemical properties, toxicological endpoints, and environmental fate of SMILES structures.
+            </p>
           </div>
 
           <div class="timeline-item">
-            <div class="timeline-content">
-              <h4 class="timeline-title">Corteva Agriscience <span class="timeline-date"
-                  style="float: right; margin-bottom: 0;">Fall 2019</span></h4>
-              <p class="timeline-subtitle">Machine Learning Engineer</p>
-              <p class="card-desc">
-                • Developing rapid model creation in Python using Pandas, Numpy, SciKit-Learn for data visualization of
-                molecule structure information.<br>
-                • Utilizing web scraping techniques to extract and organize data collected from vendors.<br>
-                • Participating in monthly meetings with Data Science and Predictive Safety Center research scientists.
-              </p>
-            </div>
+            <span class="timeline-date">Fall 2019</span>
+            <h4 class="timeline-title">Corteva Agriscience</h4>
+            <p class="timeline-subtitle">Machine Learning Engineer</p>
+            <p class="card-desc">
+              • Developing rapid model creation in Python using Pandas, Numpy, SciKit-Learn for data visualization of
+              molecule structure information.<br>
+              • Utilizing web scraping techniques to extract and organize data collected from vendors.<br>
+              • Participating in monthly meetings with Data Science and Predictive Safety Center research scientists.
+            </p>
           </div>
 
           <div class="timeline-item">
-            <div class="timeline-content">
-              <h4 class="timeline-title">Corteva Agriscience <span class="timeline-date"
-                  style="float: right; margin-bottom: 0;">Summer 2019</span></h4>
-              <p class="timeline-subtitle">Data Science Intern</p>
-              <p class="card-desc">
-                • Collaborated closely with the Data Science group to develop a Python script for the automated creation
-                of a Natural Products database.<br>
-                • Collected, studied, and interpreted large datasets; conducted reports; performed accurate, successful
-                data management.
-              </p>
-            </div>
+            <span class="timeline-date">Summer 2019</span>
+            <h4 class="timeline-title">Corteva Agriscience</h4>
+            <p class="timeline-subtitle">Data Science Intern</p>
+            <p class="card-desc">
+              • Collaborated closely with the Data Science group to develop a Python script for the automated creation
+              of a Natural Products database.<br>
+              • Collected, studied, and interpreted large datasets; conducted reports; performed accurate, successful
+              data management.
+            </p>
           </div>
 
           <div class="timeline-item">
-            <div class="timeline-content">
-              <h4 class="timeline-title">Voice and Speech Rehabilitation Research Lab (UIUC) <span class="timeline-date"
-                  style="float: right; margin-bottom: 0;">Fall 2018 - Summer 2019</span></h4>
-              <p class="timeline-subtitle">Lead Software Engineer</p>
-              <p class="card-desc">
-                • Collaborate closely with the primary investigator, Dr. Keiko Ishikawa, to implement CS, and ECE topics
-                for interdisciplinary research useful for speech-language pathologists and engineers.<br>
-                • Developed a Crowdsourcing application (Flask-based) for usage in Audio Quality Evaluation to provide a
-                fast, and affordable tool for any audio assessments through AWS Mechanical Turk.<br>
-                • Developed a Python-based audio speech recognition algorithm to detect speech intelligibility of
-                patients with voice disorders allowing for the removal of any human bias upon evaluation.
-              </p>
-            </div>
+            <span class="timeline-date">Fall 2018 - Summer 2019</span>
+            <h4 class="timeline-title">Voice and Speech Rehabilitation Research Lab (UIUC)</h4>
+            <p class="timeline-subtitle">Lead Software Engineer</p>
+            <p class="card-desc">
+              • Collaborate closely with the primary investigator, Dr. Keiko Ishikawa, to implement CS, and ECE topics
+              for interdisciplinary research useful for speech-language pathologists and engineers.<br>
+              • Developed a Crowdsourcing application (Flask-based) for usage in Audio Quality Evaluation to provide a
+              fast, and affordable tool for any audio assessments through AWS Mechanical Turk.<br>
+              • Developed a Python-based audio speech recognition algorithm to detect speech intelligibility of patients
+              with voice disorders allowing for the removal of any human bias upon evaluation.
+            </p>
           </div>
 
           <div class="timeline-item">
-            <div class="timeline-content">
-              <h4 class="timeline-title">DialogueDirect <span class="timeline-date"
-                  style="float: right; margin-bottom: 0;">Summer 2018</span></h4>
-              <p class="timeline-subtitle">Professional Fundraiser (Sales)</p>
-              <p class="card-desc">
-                • Worked with a team of activists to inform the public of the ASPCA and The Nature Conservatory.<br>
-                • Collected funds for the ASPCA and The Nature Conservatory.
-              </p>
-            </div>
+            <span class="timeline-date">Summer 2018</span>
+            <h4 class="timeline-title">DialogueDirect</h4>
+            <p class="timeline-subtitle">Professional Fundraiser (Sales)</p>
+            <p class="card-desc">
+              • Worked with a team of activists to inform the public of the ASPCA and The Nature Conservatory.<br>
+              • Collected funds for the ASPCA and The Nature Conservatory.
+            </p>
           </div>
 
           <div class="timeline-item">
-            <div class="timeline-content">
-              <h4 class="timeline-title">Human Rights Campaign <span class="timeline-date"
-                  style="float: right; margin-bottom: 0;">Summer 2017</span></h4>
-              <p class="timeline-subtitle">Field Manager</p>
-              <p class="card-desc">
-                Managed the Chicago summer canvassing branch team of up to 70 individuals. Worked to build awareness
-                about Equality Act legislation and collectively raised over half a million dollars in under two months.
-                Recognized for achievements as Team Manager before being recommended for the position of branch
-                Director.
-              </p>
-            </div>
+            <span class="timeline-date">Summer 2017</span>
+            <h4 class="timeline-title">Human Rights Campaign</h4>
+            <p class="timeline-subtitle">Field Manager</p>
+            <p class="card-desc">
+              Managed the Chicago summer canvassing branch team of up to 70 individuals. Worked to build awareness about
+              Equality Act legislation and collectively raised over half a million dollars in under two months.
+              Recognized for achievements as Team Manager before being recommended for the position of branch Director.
+            </p>
           </div>
-
         </div>
       </div>
     </section>
 
     <!-- Activities Section -->
-    <section id="activities" class="section" style="background: rgba(255,255,255,0.02)">
+    <section id="activities" class="section">
       <div class="container">
         <div class="text-center">
           <h3>Community Commitment</h3>
@@ -230,33 +219,31 @@
 
           <div class="card">
             <div class="card-img-wrap">
-              <img src="images/portfolio/gallery/florfest.webp" alt="Flor Fest">
+              <img src="images/portfolio/gallery/g-florfest.webp" alt="Flor Fest" loading="lazy">
             </div>
             <div class="card-content">
               <h4 class="card-title">Flor Fest</h4>
               <p class="card-category">Founder</p>
               <p class="card-desc">A local charity music festival that I founded to provide funds for the local LGBTQ+
                 center (UP Center of Champaign County).</p>
-              <a href="https://www.florfestcu.com/" class="card-link">Visit Site →</a>
             </div>
           </div>
 
           <div class="card">
             <div class="card-img-wrap">
-              <img src="images/portfolio/florpoetry.webp" alt="Flor Poetry">
+              <img src="images/portfolio/gallery/g-florpoetry.webp" alt="Flor Poetry" loading="lazy">
             </div>
             <div class="card-content">
               <h4 class="card-title">Flor Poetry</h4>
               <p class="card-category">President &amp; Founder</p>
               <p class="card-desc">Founded a poetry organization that focuses on developing creative writer's poetry.
               </p>
-              <a href="http://florpoetry.com/" class="card-link">Visit Site →</a>
             </div>
           </div>
 
           <div class="card">
             <div class="card-img-wrap">
-              <img src="images/portfolio/ppga.webp" alt="Planned Parenthood Generation Action">
+              <img src="images/portfolio/ppga.webp" alt="Planned Parenthood Generation Action" loading="lazy">
             </div>
             <div class="card-content">
               <h4 class="card-title">Planned Parenthood Generation Action</h4>
@@ -268,7 +255,7 @@
 
           <div class="card">
             <div class="card-img-wrap">
-              <img src="images/portfolio/frat.webp" alt="Delta Sigma Phi">
+              <img src="images/portfolio/frat.webp" alt="Delta Sigma Phi" loading="lazy">
             </div>
             <div class="card-content">
               <h4 class="card-title">Delta Sigma Phi</h4>
@@ -279,7 +266,7 @@
 
           <div class="card">
             <div class="card-img-wrap">
-              <img src="images/portfolio/orange.webp" alt="International Illini">
+              <img src="images/portfolio/orange.webp" alt="International Illini" loading="lazy">
             </div>
             <div class="card-content">
               <h4 class="card-title">International Illini</h4>
@@ -291,7 +278,7 @@
 
           <div class="card">
             <div class="card-img-wrap">
-              <img src="images/portfolio/bisexuality.webp" alt="LGBTQ+ Roundtable">
+              <img src="images/portfolio/bisexuality.webp" alt="LGBTQ+ Roundtable" loading="lazy">
             </div>
             <div class="card-content">
               <h4 class="card-title">LGBTQ+ Roundtable</h4>
@@ -308,12 +295,12 @@
     <!-- Testimonials Section -->
     <section class="testimonials section">
       <div class="container">
-        <h2>What People Say.</h2>
+        <h3 class="text-center">Feedback</h3>
+        <h2 class="text-center">What People Say</h2>
 
         <div class="testimonial-grid">
-
           <div class="testimonial-card">
-            <img src="images/avatars/william.webp" alt="William" class="testimonial-avatar">
+            <img src="images/avatars/william.webp" alt="William" class="testimonial-avatar" loading="lazy">
             <p class="testimonial-text">"We were as surprised as everyone else to read the news that Flor fest... is
               donating their first year's profits to support the programs at The UP Center. We want to thank Edgar
               Cuevas, flor poetry, and the entire Flor Fest team."</p>
@@ -322,7 +309,7 @@
           </div>
 
           <div class="testimonial-card">
-            <img src="images/avatars/sarah.webp" alt="Sarah O'Beirne" class="testimonial-avatar">
+            <img src="images/avatars/sarah.webp" alt="Sarah O'Beirne" class="testimonial-avatar" loading="lazy">
             <p class="testimonial-text">"Cuevas originally had the idea for the festival less than three months ago and
               began designing the festival. He quickly helped recruit over 20 artists and bands from across Illinois to
               perform."</p>
@@ -331,13 +318,12 @@
           </div>
 
           <div class="testimonial-card">
-            <img src="images/avatars/frankpieper.webp" alt="Frank Pieper" class="testimonial-avatar">
+            <img src="images/avatars/frankpieper.webp" alt="Frank Pieper" class="testimonial-avatar" loading="lazy">
             <p class="testimonial-text">"And here's a first — quite literally. Edgar Cuevas, president and co-founder of
               Flor Fest, has 22 musical acts from across Illinois lined up to play at this Friday's event..."</p>
             <div class="testimonial-author">Frank Pieper</div>
             <div class="testimonial-role">Staff Writer, The News Gazette</div>
           </div>
-
         </div>
       </div>
     </section>
@@ -365,7 +351,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section" style="background: rgba(255,255,255,0.02)">
+    <section id="contact" class="section">
       <div class="container">
         <div class="text-center">
           <h3>Contact</h3>
@@ -375,18 +361,17 @@
         </div>
 
         <div class="contact-grid">
-
-          <form class="contact-form" action="https://formspree.io/ecueva5@illinois.edu" method="POST">
+          <form class="contact-form" action="https://formspree.io/f/ecueva5@illinois.edu" method="POST">
             <div class="form-group">
-              <input type="text" name="contactName" class="form-control" placeholder="Name" required>
+              <input type="text" name="name" class="form-control" placeholder="Name" required>
             </div>
             <div class="form-group">
-              <input type="email" name="contactEmail" class="form-control" placeholder="Email" required>
+              <input type="email" name="email" class="form-control" placeholder="Email" required>
             </div>
             <div class="form-group">
-              <textarea name="contactMessage" class="form-control" placeholder="Message" required></textarea>
+              <textarea name="message" class="form-control" placeholder="Message" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Submit Message</button>
           </form>
 
           <div class="contact-info">
@@ -396,18 +381,16 @@
             </div>
             <div class="contact-info-item">
               <div class="contact-info-title">Professional Email</div>
-              <div class="contact-info-detail">ecueva5@illinois.edu</div>
+              <div class="contact-info-detail">ecuevas@moxehealth.com</div>
             </div>
             <div class="contact-info-item">
               <div class="contact-info-title">Personal Email</div>
               <div class="contact-info-detail">edgarxcuevas@gmail.com</div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
-
   </main>
 
   <!-- Footer -->
@@ -435,19 +418,18 @@
         </li>
       </ul>
       <div class="copyright">
-        &copy; 2026 Edgar Cuevas
+        &copy; 2026 Edgar Cuevas. Refactored into the Future.
       </div>
     </div>
   </footer>
 
+  <!-- Simple script for smooth scroll if CSS fails on older browsers, minimal code -->
   <script>
-    // Simple smooth scroll and active state implementation since we removed jQuery & plugins
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-        });
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) { target.scrollIntoView({ behavior: 'smooth' }); }
       });
     });
   </script>
